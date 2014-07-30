@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>saveuserdef</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void) saveInUserDefaults:(NSString *)string withKey:(NSString *)stringKey
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:string forKey:stringKey];
+    [defaults synchronize];
+    
+    NSLog([NSString stringWithFormat:@"Saved %@", string]);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>65AA5401-DE37-4BA9-B951-8A5AF8E47136</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Save information in user defaults</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Save In User Defaults</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>logdict</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void) log:(NSDictionary *)dict
+{
+    for (NSString *key in dict)
+    {
+        NSLog(@"Key: %@", key);
+        NSLog(@"Value: %@", [dict objectForKey:key]);
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>74695FA7-3DD7-4177-B7C5-407750C7A8B3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>NSLog the keys and values of a dictionary</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Log Dictionary</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

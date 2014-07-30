@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>AFNJSON</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;# API client class #&gt; *client = [&lt;# API client class #&gt; sharedInstance];
+    
+&lt;# Parameters #&gt;
+    NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
+                            &lt;# params #&gt;
+                            , nil];
+    
+NSString *postPath = &lt;# post Path #&gt;;
+
+    NSMutableURLRequest *request = [client requestWithMethod:@"POST" path:postPath parameters:params];
+    
+    [[AFNetworkActivityIndicatorManager sharedManager] incrementActivityCount];
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation
+                                         JSONRequestOperationWithRequest:request
+                                         success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+                                             [[AFNetworkActivityIndicatorManager sharedManager] decrementActivityCount];
+                                             NSLog(@"%@", JSON);
+                                             
+}
+                                         failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
+                                             [[AFNetworkActivityIndicatorManager sharedManager] decrementActivityCount];
+                                             NSLog(@"%@", error);
+                                         }];
+    
+    [operation start];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E41CC7FD-D036-4D03-A46B-EECF6B58AFF2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates and processes a JSON request</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AFNetworking JSON Request</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
