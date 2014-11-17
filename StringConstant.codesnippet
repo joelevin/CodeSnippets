@@ -3,29 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>exedel</string>
+	<string>strc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (self.delegate != nil)
-        {
-            if ([self.delegate respondsToSelector:@selector(&lt;#selector#&gt;)])
-            {
-                &lt;# execute delegate #&gt;
-            }
-        }
-</string>
+	<string>NSString *const &lt;# string name #&gt; = &lt;# string literal #&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>53CD2902-B813-4B54-8C7F-B9DDA8DF11A9</string>
+	<string>A28B598A-CD13-462C-AAE9-A28FA8D4E57A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Often, for dictionary keys.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Execute Delegate</string>
+	<string>String Constant</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

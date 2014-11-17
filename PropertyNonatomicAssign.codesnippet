@@ -3,29 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>exedel</string>
+	<string>pna</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (self.delegate != nil)
-        {
-            if ([self.delegate respondsToSelector:@selector(&lt;#selector#&gt;)])
-            {
-                &lt;# execute delegate #&gt;
-            }
-        }
+	<string>@property (nonatomic, assign) &lt;#Class name#&gt; &lt;#Property Name#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>53CD2902-B813-4B54-8C7F-B9DDA8DF11A9</string>
+	<string>142B0D1A-B105-4EE0-97F1-DDEDD684F2E3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>For those integers in your life</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Execute Delegate</string>
+	<string>Property Nonatomic Assign</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
