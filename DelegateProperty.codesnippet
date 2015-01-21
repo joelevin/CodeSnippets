@@ -13,7 +13,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0D2AFE7B-F962-472D-B0EE-07A61EAB0B2A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Inserts a property for a delegate</string>
 	<key>IDECodeSnippetTitle</key>
