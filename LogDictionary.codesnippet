@@ -16,8 +16,7 @@
         NSLog(@"Key: %@", key);
         NSLog(@"Value: %@", [dict objectForKey:key]);
     }
-}
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>74695FA7-3DD7-4177-B7C5-407750C7A8B3</string>
 	<key>IDECodeSnippetLanguage</key>

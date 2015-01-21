@@ -10,13 +10,12 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>if (self.delegate != nil)
-        {
-            if ([self.delegate respondsToSelector:@selector(&lt;#selector#&gt;)])
-            {
-                &lt;# execute delegate #&gt;
-            }
-        }
-</string>
+{
+    if ([self.delegate respondsToSelector:@selector(&lt;#selector#&gt;)])
+    {
+        &lt;# execute delegate #&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>53CD2902-B813-4B54-8C7F-B9DDA8DF11A9</string>
 	<key>IDECodeSnippetLanguage</key>

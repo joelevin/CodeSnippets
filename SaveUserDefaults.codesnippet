@@ -16,8 +16,7 @@
     [defaults synchronize];
     
     NSLog([NSString stringWithFormat:@"Saved %@", string]);
-}
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>65AA5401-DE37-4BA9-B951-8A5AF8E47136</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -33,8 +33,7 @@ NSString *postPath = &lt;# post Path #&gt;;
                                              NSLog(@"%@", error);
                                          }];
     
-    [operation start];
-</string>
+    [operation start];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E41CC7FD-D036-4D03-A46B-EECF6B58AFF2</string>
 	<key>IDECodeSnippetLanguage</key>
