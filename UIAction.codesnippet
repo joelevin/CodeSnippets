@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uiac</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString * const kActionTitle = &lt;# action title #&gt;;
+    return [UIAlertAction actionWithTitle:&lt;#(nullable NSString *)#&gt; style:&lt;#(UIAlertActionStyle)#&gt; handler:&lt;#^(UIAlertAction * _Nonnull action)handler#&gt;]</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5BE21832-340C-4653-B998-152F85238E86</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Code to set up a UIAction for UIAlertController</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIAction</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
